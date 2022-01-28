@@ -1,0 +1,407 @@
+@import url(//db.onlinewebfonts.com/c/4169cfbbc7f0a38ab963522d7b6619ec?family=BauhausBuglerW00-Regular);
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: BauhausBuglerW00-Regular;
+    font-weight: bold;
+}
+
+
+
+/* navbar and header */
+header {
+    background-color: #d8edf0;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    width: 60%;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul li {
+    padding: 0 20px;
+    font-size: 1rem;
+}
+
+.nav-links ul button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+
+}
+
+.header-content {
+
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 70%;
+}
+
+.header-main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.header-main h5 {
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 70%;
+    font-family: 'Dongle', sans-serif;
+
+}
+
+.header-main h1 {
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.header-img img {
+    width: 80%;
+}
+
+.header-button {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: -1rem;
+}
+
+.header-button button {
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+
+
+/* section-2 */
+
+
+.section-2 {
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+
+.section-2-img img {
+    height: 100%;
+}
+
+.section-2-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-left: 10rem;
+    width: 100%;
+}
+
+.section-2-content h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section-2-content p {
+    margin-top: 1rem;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+/* section-3 */
+.section-3 {
+    height: 600px;
+    background-color: #f8f9f9;
+}
+
+.section-3-content {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-3-top {
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-3-top h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section-3-top p {
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: initial;
+    text-align: center;
+    width: 70%;
+}
+
+.section-3-content button {
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+}
+
+.section-3-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-3-bottom div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-3-bottom div h1 {
+    text-align: center;
+}
+
+.section-3-bottom div p {
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: initial;
+    text-align: center;
+    width: 70%;
+}
+
+.circle {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.circle img {
+    width: 70%;
+    position: relative;
+    left: 9px;
+
+}
+
+.yellow {
+    background-color: #ffc000;
+}
+
+.green {
+    background-color: #08cf65;
+}
+
+.purple {
+    background-color: #6e5aeb;
+}
+
+/* section-4 */
+.section-4 {
+    height: 350px;
+    margin-left: 15rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-4 div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-4 div img {
+    object-fit: scale-down;
+    height: 40%;
+}
+
+.section-4-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4-top p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.section-4-top h1 {
+    font-size: 3rem;
+}
+
+/* section-5 */
+.section-5 {
+    height: 450px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.section-5-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-5-bottom img {
+    height: 60%;
+}
+
+.section-5-bottom div {
+    margin: auto;
+    margin-left: 10rem;
+}
+
+.section-5-bottom div p {
+    margin: auto;
+    margin-top: 1rem;
+    font-family: 'Dongle', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.section-5-bottom div h1 {
+    font-size: 3rem;
+    margin-left: 7rem;
+}
+
+.section-5-bottom div h4 {
+    margin-left: 7.25rem;
+    margin-top: 2rem;
+    font-weight: 900;
+}
+
+/* footer */
+
+footer {
+    height: 500px;
+    background-color: #f8f9f9;
+}
+
+.footer-section {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.footer-section button {
+    display: inline;
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 150px;
+}
+
+.footer-bottom div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bottom div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.address h4,
+p {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: initial;
+}
+
+.address img {
+    width: 20%;
+}
+
+.for-brand h4,
+.for-influencer h4 {
+    font-family: sans-serif;
+    font-weight: initial;
+    font-size: 14px;
+}
+
+.for-brand h3,
+.for-influencer h3 {
+    margin-bottom: 10px;
+}
+
+
+.icons img {
+    height: 35%;
+}
