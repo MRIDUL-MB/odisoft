@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/4169cfbbc7f0a38ab963522d7b6619ec?family=BauhausBuglerW00-Regular);
+/* @import url(//db.onlinewebfonts.com/c/4169cfbbc7f0a38ab963522d7b6619ec?family=BauhausBuglerW00-Regular); */
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
 * {
@@ -308,7 +308,7 @@ nav {
     margin-top: 1rem;
     font-family: 'Dongle', sans-serif;
     font-weight: 100;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     width: 60%;
 }
 
