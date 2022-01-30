@@ -97,7 +97,6 @@ nav {
 }
 
 .header-content {
-
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -106,7 +105,6 @@ nav {
 }
 
 .header-main {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,13 +119,11 @@ nav {
     font-size: 1.5rem;
     line-height: 70%;
     font-family: 'Dongle', sans-serif;
-
 }
 
 .header-main h1 {
     font-size: 3rem;
     text-align: center;
-
 }
 
 .header-img img {
@@ -181,6 +177,65 @@ nav {
         font-size: 1.25rem;
     }
 
+}
+
+
+/* header ----> mobile responsive  */
+@media screen and (max-width: 760px) {
+    header {
+        height: 300px;
+    }
+
+    nav {
+        width: auto;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .nav-links ul li {
+        padding: 0 10px;
+        font-size: 0.5rem;
+    }
+
+    .nav-links ul button {
+        font-size: 0.5rem;
+        padding: 2px;
+
+    }
+
+    .header-main {
+        width: auto;
+        margin-right: 1rem;
+    }
+
+    .header-main h1 {
+        font-size: 1.25rem;
+    }
+
+    .header-main h5 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .header-content {
+        margin: auto 1rem;
+        width: auto;
+    }
+
+    .header-button {
+        margin-bottom: 1rem;
+    }
+
+    .header-button button {
+        padding: 4px;
+        font-size: 0.5rem;
+    }
 }
 
 
@@ -241,9 +296,6 @@ nav {
 
 /* Section-2 ----> tab responsive  */
 @media screen and (max-width: 1200px) {
-    .section-2>img {
-        display: none;
-    }
 
     .section-2 {
         height: 400px;
@@ -262,6 +314,37 @@ nav {
         font-size: 1rem;
         width: 100%;
     }
+}
+
+/* Section-2 ----> mobile responsive  */
+@media screen and (max-width: 760px) {
+    .section-2 {
+        width: 85%;
+        height: 250px;
+        justify-content: space-around;
+    }
+
+
+    .section-2-img img {
+        height: 100%;
+
+    }
+
+    .section-2-content {
+        margin: auto;
+        width: 100%;
+    }
+
+    .section-2-content h1 {
+        font-size: 1rem;
+    }
+
+    .section-2-content p {
+        font-size: 0.75rem;
+        line-height: 100%;
+        width: 80%;
+    }
+
 }
 
 /* section-3 */
@@ -364,7 +447,6 @@ nav {
 @media screen and (max-width: 1200px) {
     .section-3 {
         height: 500px;
-        background-color: #f8f9f9;
     }
 
     .section-3-top h1 {
@@ -378,6 +460,43 @@ nav {
 
     .section-3-top div p {
         font-size: 0.75rem;
+    }
+}
+
+/* Section-3 ----> mobile responsive  */
+@media screen and (max-width: 760px) {
+    .section-3 {
+        height: 400px;
+    }
+
+    .section-3-content {
+        width: auto;
+        width: 95%;
+    }
+
+    .section-3-top {
+        width: auto;
+    }
+
+    .section-3-top h1 {
+        font-size: 1.5rem;
+    }
+
+    .section-3-top p {
+        font-size: 0.75rem;
+    }
+
+    .section-3-bottom div h1 {
+        font-size: 1rem;
+    }
+
+    .section-3-bottom div p {
+        font-size: 0.75rem;
+        width: auto;
+    }
+
+    .section-3-content button {
+        font-size: 1rem;
     }
 }
 
@@ -436,7 +555,30 @@ nav {
         object-fit: scale-down;
         height: 18%;
     }
+
 }
+
+/* Section-4 ----> mobile responsive  */
+@media screen and (max-width: 760px) {
+    .section-4 {
+        height: 250px;
+        margin: auto 1rem;
+    }
+
+    .section-4-top p {
+        font-size: 0.75rem;
+        width: 90%;
+    }
+
+    .section-4-top h1 {
+        font-size: 1rem;
+    }
+
+    .section-4 div img {
+        height: 10%;
+    }
+}
+
 
 
 /* section-5 */
@@ -517,6 +659,36 @@ nav {
 
 }
 
+/* Section-5 ----> mobile responsive  */
+@media screen and (max-width: 760px) {
+    .section-5 {
+        margin: auto 1rem;
+        height: 250px;
+    }
+
+    .section-5-bottom img {
+        height: 30%;
+    }
+
+    .section-5-bottom div p {
+        font-size: 0.75rem;
+        line-height: 100%;
+    }
+
+    .section-5-bottom div h1 {
+        font-size: 1rem;
+        margin-left: auto;
+
+    }
+
+    .section-5-bottom div {
+        margin-left: 2rem;
+    }
+
+    .section-5-bottom div h4 {
+        font-size: 0.75rem;
+    }
+}
 
 /* footer */
 
@@ -662,5 +834,31 @@ footer>img {
     .address {
         align-items: center;
         margin-bottom: 1rem;
+    }
+}
+
+/* footer ----> mobile responsive  */
+@media screen and (max-width: 760px) {
+
+    footer {
+        height: 400px;
+    }
+
+    .footer-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .footer-section button {
+        font-size: 1rem;
+    }
+
+    .for-brand h3,
+    .for-influencer h3 {
+        font-size: 1rem;
+    }
+
+    .for-brand h4,
+    .for-influencer h4 {
+        font-size: 0.75rem;
     }
 }
