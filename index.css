@@ -15,7 +15,6 @@
 }
 
 
-
 /* navbar and header */
 header {
     background-color: #d8edf0;
@@ -152,6 +151,38 @@ nav {
     color: white;
 }
 
+/* Header ----> tab responsive  */
+@media screen and (max-width: 1200px) {
+
+
+    .object-1,
+    .object-2,
+    .object-3,
+    .object-4,
+    .object-5,
+    .object-6,
+    .object-7,
+    .object-8,
+    .object-9,
+    .object-10,
+    .object-11,
+    .object-12,
+    .object-13 {
+        display: none;
+    }
+
+    .header-main h1 {
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+    .header-main h5 {
+        font-size: 1.25rem;
+    }
+
+}
+
 
 
 /* section-2 */
@@ -206,6 +237,31 @@ nav {
     height: 8%;
     left: 430px;
     top: 610px;
+}
+
+/* Section-2 ----> tab responsive  */
+@media screen and (max-width: 1200px) {
+    .section-2>img {
+        display: none;
+    }
+
+    .section-2 {
+        height: 400px;
+        display: flex;
+    }
+
+    .section-2-content h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .section-2-content p {
+        margin-top: 1rem;
+        font-family: 'Dongle', sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+        width: 100%;
+    }
 }
 
 /* section-3 */
@@ -304,6 +360,27 @@ nav {
     background-color: #6e5aeb;
 }
 
+/* section-3 ----> tab responsive  */
+@media screen and (max-width: 1200px) {
+    .section-3 {
+        height: 500px;
+        background-color: #f8f9f9;
+    }
+
+    .section-3-top h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .section-3-bottom div p {
+        font-size: 0.75rem;
+    }
+
+    .section-3-top div p {
+        font-size: 0.75rem;
+    }
+}
+
 /* section-4 */
 .section-4 {
     height: 350px;
@@ -338,6 +415,29 @@ nav {
 .section-4-top h1 {
     font-size: 3rem;
 }
+
+/* Section-4 ----> tab responsive  */
+@media screen and (max-width: 1200px) {
+    .section-4 {
+        height: 300px;
+        margin: auto 5rem;
+    }
+
+    .section-4-top p {
+        margin-top: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .section-4-top h1 {
+        font-size: 2.25rem;
+    }
+
+    .section-4 div img {
+        object-fit: scale-down;
+        height: 18%;
+    }
+}
+
 
 /* section-5 */
 .section-5 {
@@ -384,6 +484,39 @@ nav {
     margin-top: 2rem;
     font-weight: 900;
 }
+
+/* section-5 ----> tab responsive  */
+@media screen and (max-width: 1200px) {
+    .section-5 {
+        width: auto;
+        height: 400px;
+        margin: auto 5rem;
+    }
+
+    .section-5-bottom div p {
+        font-size: 1rem;
+        width: auto;
+    }
+
+    .section-5-bottom div h1 {
+        font-size: 2rem;
+        margin-left: auto;
+
+    }
+
+    .section-5-bottom div h4 {
+        margin-left: unset;
+        margin-top: 2rem;
+        font-weight: 900;
+        width: auto;
+    }
+
+    .section-5-bottom div {
+        margin-left: 5rem;
+    }
+
+}
+
 
 /* footer */
 
@@ -507,4 +640,27 @@ footer>img {
     height: 9%;
     top: 2530px;
     right: 200px;
+}
+
+/* Footer ----> tab responsive  */
+@media screen and (max-width: 1200px) {
+
+
+    .icons img {
+        display: none;
+    }
+
+    .footer-bottom {
+        width: 100%;
+        display: block;
+    }
+
+    .footer-bottom div {
+        width: auto;
+    }
+
+    .address {
+        align-items: center;
+        margin-bottom: 1rem;
+    }
 }
